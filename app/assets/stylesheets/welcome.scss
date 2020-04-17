@@ -1,3 +1,37 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.content{
+  width:1100px;
+  height:840px;
+  margin: 0 auto;
+}
+
+.profile-text{
+  display: block;
+  width:600px;
+  height:800px;
+  overflow:scroll;
+  float:left;
+  padding: 20px;
+}
+
+
+.profile-image{
+  width:420px;
+  height:500px;
+  div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  padding:20px;
+  img {
+    width:420px;
+    height:500px;
+  }
+  float:left;
+  height:800px;
+  overflow:scroll;
+}
